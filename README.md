@@ -1,6 +1,9 @@
 # changepoint.parallel
 This package is a very basic package to run changepoint detection.  The code here runs algorithms discussed in my PhD thesis.  Please email me for more information.
-There are 2 different methods used to split the data over multiple cores.  These are SM1 and SM2 which are depicted below. 
+There are 2 different methods used to split the data over multiple cores.  These are SM1 and SM2 which are depicted below. SM1 is the left plot and SM2 is the right plot.  The different shapes and colours show how the data is split over the mutiple cores. 
+
+<img src="https://github.com/KayleaHaynes/changepoint.parallel/blob/master/sm1.png" width="400">
+<img src="https://github.com/KayleaHaynes/changepoint.parallel/blob/master/sm2.png" width="400">
 
 ##### Example 
 ```
